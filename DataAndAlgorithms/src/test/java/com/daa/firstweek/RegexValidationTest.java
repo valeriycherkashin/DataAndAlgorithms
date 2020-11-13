@@ -1,4 +1,4 @@
-package com.daa.thirdweek;
+package com.daa.firstweek;
 
 import com.daa.firstweek.RegexValidation;
 import org.junit.Test;
