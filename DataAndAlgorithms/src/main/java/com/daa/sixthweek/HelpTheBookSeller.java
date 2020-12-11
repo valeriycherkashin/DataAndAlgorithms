@@ -12,10 +12,10 @@ public class HelpTheBookSeller {
                 }
             }
         }
-        StringBuilder res = new StringBuilder();
+        StringBuilder result = new StringBuilder();
         for (int i=0; i<lstOf1stLetter.length; i++) {
-            res.append(((i>0) ? " - " : "") + "(" + lstOf1stLetter[i] + " : " + sum[i] + ")");
+            result.append(((i>0) ? " - " : "") + "(" + lstOf1stLetter[i] + " : " + sum[i] + ")");
         }
-        return res.toString();
+        return result.toString();
     }
 }
